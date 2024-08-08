@@ -17,6 +17,12 @@
     transition-duration: 350ms;
 }
 
+
+.error-404 {
+    font-size: 45px;
+    margin: auto;
+    padding-bottom: 150px;
+}
 .prop-link {
     margin: 0 15px 10px 15px;
 }

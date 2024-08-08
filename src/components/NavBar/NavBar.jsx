@@ -3,6 +3,7 @@ import CartWidget from "../CartWidget/CartWidget";
 import FutbolSolid from "./Logo/FutbolSolid";
 import LogoUser from "../CartWidget/LogoUser";
 import "./NavBar.css";
+import { NavLink, Link } from 'react-router-dom'
 
 
 // COMPONENTE
@@ -12,7 +13,10 @@ const NavBar = () => {
             <nav className="navbar navbar-expand-lg bg-body-tertiary ">
                 <div className="container-fluid navbar-prop">
                     <div className="prop-logo-flex">
-                    <a className="navbar-brand" href="#">JSport</a>
+                    <Link to='/'>
+                    {/* <a className="navbar-brand" href="#">JSport</a> */}
+                    <h3 className="navbar-brand">JSport</h3>
+                    </Link>
                     <FutbolSolid />
                     </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,9 +24,12 @@ const NavBar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <button className="nav-link prop-link" aria-current="page" href="#">Home</button>
+                            {/* <button className="nav-link prop-link" aria-current="page" href="#">Home</button>
                             <button className="nav-link prop-link" href="#">Camisetas de América</button>
-                            <button className="nav-link prop-link" href="#">Camisetas de Europa</button>
+                            <button className="nav-link prop-link" href="#">Camisetas de Europa</button> */}
+                            <NavLink to={`/`} className={({ isActive}) => isActive ? 'ActiveOption nav-link prop-link' : 'Option nav-link prop-link'}>Home</NavLink>
+                            <NavLink to={`/category/america`} className={({ isActive}) => isActive ? 'ActiveOption nav-link prop-link' : 'Option nav-link prop-link'}>Camisetas de America</NavLink>
+                            <NavLink to={`/category/europa`} className={({ isActive}) => isActive ? 'ActiveOption nav-link prop-link' : 'Option nav-link prop-link nav-link prop-link' }>Camisetas de Europa</NavLink>
                         </div>
                         <CartWidget />
                         <LogoUser />
