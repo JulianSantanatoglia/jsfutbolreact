@@ -1,10 +1,10 @@
 // IMPORTS
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import ItemListContainer from './components/ItemsListContainer/ItemsListContainer';
+import Banner from './components/Banner/Banner';
 import ModalCart from './components/ModalCart/ModalCart';
 import Footer from './components/Footer/Footer';
-import Productos from './components/Productos/Productos';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 
 // COMPONENTES
@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
     <NavBar />
-    <ItemListContainer slogan={'Vive tu pasión, viste tu equipo'} />
-    <Productos />
+    <Banner slogan={'Vive tu pasión, viste tu equipo'} />
+    <ItemListContainer />
     <ModalCart />
     <Footer />
     </div>

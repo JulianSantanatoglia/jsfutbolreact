@@ -5,7 +5,7 @@ import './Slogan.css';
 
 
 // COMPONENTE
-const ItemListContainer = ({ slogan }) => {
+const Banner = ({ slogan }) => {
     return (
         <div>
         <h1 className="prop-slogan">{ slogan }</h1>
@@ -17,4 +17,4 @@ const ItemListContainer = ({ slogan }) => {
 
 
 // EXPORTS
-export default ItemListContainer
+export default Banner
