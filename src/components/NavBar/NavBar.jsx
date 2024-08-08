@@ -20,9 +20,9 @@ const NavBar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link prop-link" aria-current="page" href="#">Inicio</a>
-                            <a className="nav-link prop-link" href="#">Camisetas</a>
-                            <a className="nav-link prop-link" href="#">Contacto</a>
+                            <button className="nav-link prop-link" aria-current="page" href="#">Home</button>
+                            <button className="nav-link prop-link" href="#">Camisetas de América</button>
+                            <button className="nav-link prop-link" href="#">Camisetas de Europa</button>
                         </div>
                         <CartWidget />
                         <LogoUser />
