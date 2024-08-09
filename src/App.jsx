@@ -13,16 +13,18 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      
+
     <BrowserRouter>
     <NavBar />
     <Banner slogan={'Vive tu pasión, viste tu equipo'} />
     <Routes>
     <Route path='/' element={<ItemListContainer />}/>
     <Route path='/category/:categoryId' element={<ItemListContainer />}/>
+    <Route path='/item/:itemId' element={<ItemDetailContainer />}/>
     <Route path='*' element={<h1 className="error-404">Lo siento, esta página no existe</h1>}/>
     </Routes>
     </BrowserRouter>
+    <ItemListContainer />
     <ItemDetailContainer />
     <ModalCart />
     <Footer />
