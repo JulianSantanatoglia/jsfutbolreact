@@ -1,9 +1,6 @@
 // IMPORTS
 import './Slogan.css';
 
-
-
-
 // COMPONENTE
 const Banner = ({ slogan }) => {
     return (
@@ -12,9 +9,6 @@ const Banner = ({ slogan }) => {
         </div>
     )
 }
-
-
-
 
 // EXPORTS
 export default Banner
