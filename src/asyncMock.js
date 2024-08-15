@@ -40,7 +40,7 @@ const products = [
         name: 'Camiseta Brasil',
         price: 50,
         category: 'america',
-        img: '../src/components/Card-product/assets/camiseta-brasil.jpg',
+        img: ('../src/components/Card-product/assets/camiseta-brasil.jpg'),
         stock: 5,
         description: 'Camiseta de Brasil'
     },
