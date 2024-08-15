@@ -23,7 +23,6 @@ const ItemListContainer = ({ greeting }) => {
 
     return (
         <div>
-            <h1 className="prop-slogan">{greeting}</h1>
             <ItemList products={products}/>
         </div>
     )

@@ -14,7 +14,7 @@ const products = [
         price: 45,
         category: 'europa',
         img: '../src/components/Card-product/assets/camiseta-esp.jpg',
-        stock: 12,
+        stock: 9,
         description: 'Camiseta de España'
     },
     {
@@ -23,7 +23,7 @@ const products = [
         price: 25,
         category: 'america',
         img: '../src/components/Card-product/assets/camiseta-ale.jpg',
-        stock: 10,
+        stock: 8,
         description: 'Camiseta de Alemania'
     },
     {
@@ -32,7 +32,7 @@ const products = [
         price: 20,
         category: 'europa',
         img: '../src/components/Card-product/assets/camiseta-francia.jpg',
-        stock: 30,
+        stock: 9,
         description: 'Camiseta de Francia'
     },
     {
@@ -41,7 +41,7 @@ const products = [
         price: 50,
         category: 'america',
         img: '../src/components/Card-product/assets/camiseta-brasil.jpg',
-        stock: 15,
+        stock: 5,
         description: 'Camiseta de Brasil'
     },
     {
@@ -50,7 +50,7 @@ const products = [
         price: 35,
         category: 'europa',
         img: '../src/components/Card-product/assets/camiseta-inglaterra.jpg',
-        stock: 25,
+        stock: 7,
         description: 'Camiseta de Inglaterra'
     }
 ]

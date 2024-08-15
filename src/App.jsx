@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
     <CartProvider>
     <NavBar />
-    {/* <Banner slogan={'Vive tu pasión, viste tu equipo'} /> */}
+    <Banner slogan={'Vive tu pasión, viste tu equipo'} />
     <Routes>
     <Route path='/' element={<ItemListContainer />}/>
     <Route path='/category/:categoryId' element={<Banner slogan={'Vive tu pasión, viste tu equipo'} />}/>

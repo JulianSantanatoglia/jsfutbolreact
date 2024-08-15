@@ -14,14 +14,14 @@ const NavBar = () => {
                 <div className="container-fluid navbar-prop">
                     <div className="prop-logo-flex">
                     <Link to='/'>
-                    {/* <a className="navbar-brand" href="#">JSport</a> */}
-                    <h3 className="navbar-brand">JSport</h3>
+                    <a className="navbar-brand" href="#">JSport</a>
+                    {/* <h3 className="navbar-brand">JSport</h3> */}
                     </Link>
                     <FutbolSolid />
                     </div>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
+                    {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon">asdasd</span>
+                    asdsda</button> */}
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
                             <NavLink to={`/`} className="nav-link prop-link">Home</NavLink>
@@ -30,7 +30,7 @@ const NavBar = () => {
                         </div>
                         <CartWidget />
                         <LogoUser />
-                </div>
+                </div> 
                 </div>
             </nav>
         </> 
