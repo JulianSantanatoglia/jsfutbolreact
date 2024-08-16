@@ -20,7 +20,7 @@ function App() {
     <Banner slogan={'Vive tu pasión, viste tu equipo'} />
     <Routes>
     <Route path='/' element={<ItemListContainer />}/>
-    <Route path='/category/:categoryId' element={<Banner slogan={'Vive tu pasión, viste tu equipo'} />}/>
+    <Route path='/category/:categoryId'/>
     <Route path='/item/:itemId' element={<ItemDetailContainer />}/>
     <Route path='*' element={<h1 className="error-404">Lo siento, esta página no existe</h1>}/>
     </Routes>
